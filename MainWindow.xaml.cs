@@ -267,7 +267,7 @@ public partial class MainWindow : Window
 
     private static double ControlTop(ControlDefinition c, double size) => c.Y + ((72 * c.Size) - size) / 2;
 
-    private System.Windows.Media.Brush ResolveBorder(ControlDefinition control)
+    private Brush ResolveBorder(ControlDefinition control)
     {
         if (!control.Enabled)
         {
